@@ -1,0 +1,134 @@
+body {
+  background: white;
+  /* background: url(images/partly-sunny-rays.jpg);
+  background-repeat: no-repeat;
+  background-position-x: 10%;
+  background-position-y: 50%; */
+}
+/* video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: opacity(0.5);
+} */
+.container {
+  /* background: rgba(255, 255, 255, 0.55); */
+  background-color: aliceblue;
+  max-width: 700px;
+  margin: 20px auto;
+  font-family: "Lato", sans-serif;
+  padding: 30px;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 20px grey;
+}
+.city-search-input {
+  padding: 10px;
+  width: 420px;
+  font-size: 15px;
+  border: solid 2px black;
+  border-radius: 2px;
+  background: transparent;
+}
+.general-stats {
+  margin: 50px 0px 50px 0px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+input.hover {
+  background: #ecf4f3;
+}
+.degrees,
+.sun-icon {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+.sun-icon-main {
+  color: #1cb3c8;
+  font-weight: 550;
+  font-size: 65px;
+  position: relative;
+  right: -5%;
+  bottom: 0;
+}
+.daily-forecast .material-symbols-outlined {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  zoom: 160%;
+  position: relative;
+  right: 10%;
+  color: #556f8c;
+  transition: all 150ms ease-in-out;
+}
+.sun-icon-forecast:hover,
+.cloud-icon-forecast:hover,
+.partly-cloudy-icon-forecast:hover,
+.rain-icon-forecast:hover {
+  transform: scale(120%);
+}
+.cloud-icon-forecast:hover {
+  color: #79c5e6;
+}
+.sun-icon-forecast:hover,
+.sun-icon-main {
+  color: #ffd324;
+}
+.rain-icon-forecast:hover {
+  color: #556f8c;
+}
+.partly-cloudy-icon-forecast:hover {
+  color: #79c5e6;
+}
+
+.degrees {
+  position: relative;
+  padding-right: 0px;
+  margin-left: 10%;
+}
+.celsius-farenheight {
+  padding-left: 0px;
+  font-weight: bold;
+  color: #79c5e6;
+}
+.deg-link {
+  text-decoration: none;
+  color: #79c5e6;
+}
+.deg-link:hover {
+  color: #556f8c;
+}
+.search-button {
+  padding: 13px 15px;
+  background: #000000;
+  border-radius: 25px;
+  color: #ecf4f3;
+  border: none;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.favourite {
+  position: relative;
+  font-size: 40px;
+  bottom: -10%;
+}
+
+.daily-forecast {
+  text-align: center;
+}
+.degree-forecast {
+  font-size: 17px;
+}
+/* .daily-forecast .material-symbols-outlined:hover {
+  color: #5dacbd;
+} */
