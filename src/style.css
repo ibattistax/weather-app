@@ -129,6 +129,13 @@ input.hover {
 .degree-forecast {
   font-size: 17px;
 }
+
+.footer {
+  font-size: 12px;
+  color: #556f8c;
+  text-align: center;
+}
+
 /* .daily-forecast .material-symbols-outlined:hover {
   color: #5dacbd;
 } */
